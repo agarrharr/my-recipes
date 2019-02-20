@@ -1,0 +1,19 @@
+{
+  "name": "my-recipes",
+  "version": "0.0.1",
+  "description": "A site using gatsby-theme-paprika that pulls in data from Paprika",
+  "main": "gatsby-config.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "import": "node ./node_modules/gatsby-theme-paprika/scripts/import-recipes.js"
+  },
+  "dependencies": {
+    "gatsby": "^2.1.2",
+    "gatsby-theme-paprika": "^0.1.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  }
+}
