@@ -1,4 +1,4 @@
-# my-recipes
+# recipes
 
 My recipes exported from [Paprika](https://www.paprikaapp.com/).
 
