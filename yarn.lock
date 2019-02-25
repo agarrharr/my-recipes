@@ -3532,9 +3532,9 @@ expand-tilde@^2.0.0, expand-tilde@^2.0.2:
   dependencies:
     homedir-polyfill "^1.0.1"
 
-export-paprika-recipes@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/export-paprika-recipes/-/export-paprika-recipes-1.0.2.tgz#d3da3427f45955eccdf42ff2dd314dbb5a3b6658"
+export-paprika-recipes@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/export-paprika-recipes/-/export-paprika-recipes-1.0.3.tgz#b0fa497a1559958968d42c195ebbdf6e035df326"
   dependencies:
     paprika-api "^1.0.3"
     request "^2.88.0"
@@ -4153,14 +4153,14 @@ gatsby-source-filesystem@^2.0.20:
     valid-url "^1.0.9"
     xstate "^3.1.0"
 
-gatsby-theme-paprika@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-paprika/-/gatsby-theme-paprika-0.2.1.tgz#8f1b89d7025398a27a987d34641a633293c34f6f"
+gatsby-theme-paprika@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-paprika/-/gatsby-theme-paprika-0.2.4.tgz#9708b8111bee1b135c2b0f6d808e83ba83b03fa0"
   dependencies:
     "@emotion/core" "^10.0.7"
     "@emotion/styled" "^10.0.7"
     dotenv "^6.2.0"
-    export-paprika-recipes "^1.0.1"
+    export-paprika-recipes "^1.0.3"
     gatsby "^2.0.119"
     gatsby-image "^2.0.29"
     gatsby-plugin-emotion "^4.0.4"
