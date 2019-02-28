@@ -654,6 +654,10 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
+"@dschau/gatsby-theme-utils@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@dschau/gatsby-theme-utils/-/gatsby-theme-utils-0.0.5.tgz#793ada7a9ceac708fd47f60176e49e9dfb496c0b"
+
 "@emotion/babel-plugin-jsx-pragmatic@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@emotion/babel-plugin-jsx-pragmatic/-/babel-plugin-jsx-pragmatic-0.1.0.tgz#fc980ee7f50f7b949ca76b4897e992739076b93d"
@@ -4153,10 +4157,11 @@ gatsby-source-filesystem@^2.0.20:
     valid-url "^1.0.9"
     xstate "^3.1.0"
 
-gatsby-theme-paprika@^0.2.4:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-paprika/-/gatsby-theme-paprika-0.2.4.tgz#9708b8111bee1b135c2b0f6d808e83ba83b03fa0"
+gatsby-theme-paprika@^0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-paprika/-/gatsby-theme-paprika-0.2.5.tgz#4b058196669d3ff135a2123af86959d39925e094"
   dependencies:
+    "@dschau/gatsby-theme-utils" "0.0.5"
     "@emotion/core" "^10.0.7"
     "@emotion/styled" "^10.0.7"
     dotenv "^6.2.0"
