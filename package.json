@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "gatsby": "^2.1.2",
-    "gatsby-theme-paprika": "^0.2.5",
+    "gatsby-plugin-compile-es6-packages": "^1.0.6",
+    "gatsby-theme-paprika": "^0.2.7",
     "gh-pages": "^2.0.1",
     "react": "^16.8.1",
     "react-dom": "^16.8.1"
