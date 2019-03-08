@@ -8,14 +8,13 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages",
+    "deploy": "npm run import && npm run build",
     "import": "node ./node_modules/gatsby-theme-paprika/scripts/import-recipes.js"
   },
   "dependencies": {
     "gatsby": "^2.1.2",
     "gatsby-plugin-compile-es6-packages": "^1.0.6",
     "gatsby-theme-paprika": "^0.2.8",
-    "gh-pages": "^2.0.1",
     "react": "^16.8.1",
     "react-dom": "^16.8.1"
   }
